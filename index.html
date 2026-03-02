@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clipboard</title>
+  <title>Copiar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
   <style>
@@ -214,27 +214,27 @@
 <body>
 
   <header>
-    <h1>Clipboard</h1>
-    <span class="subtitle">shared · persistent</span>
+    <h1>Copiar / Pegar</h1>
+    <span class="subtitle">Compartido y público</span>
   </header>
 
   <div class="card">
     <div class="display-section">
-      <div class="label">current content</div>
-      <div id="display-content" class="empty">loading…</div>
+      <div class="label">Contenido actual</div>
+      <div id="display-content" class="empty">cargando…</div>
     </div>
 
     <div class="input-section">
-      <div class="label">new content</div>
-      <textarea id="input" placeholder="Paste text, a URL, anything…"></textarea>
+      <div class="label">nuevo contenido</div>
+      <textarea id="input" placeholder="Pega texto o dirección"></textarea>
       <div class="actions">
-        <button id="save-btn">Save</button>
+        <button id="save-btn">Grabar</button>
         <span id="status">—</span>
       </div>
     </div>
   </div>
 
-  <footer>changes are visible to everyone instantly</footer>
+  <footer>los cambios son visibles para todo el mundo de forma instantánea</footer>
 
   <script>
     /* ================================================================
